@@ -1,9 +1,7 @@
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(Xylophone());
-}
+void main() => runApp(Xylophone());
 
 class Xylophone extends StatelessWidget {
   const Xylophone({Key? key}) : super(key: key);
